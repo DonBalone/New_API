@@ -1,0 +1,13 @@
+env: "local"
+storage_info:
+    host: "localhost"
+    port: "5432"
+    sslmode: "disable"
+    dbname: "new_api"
+    user: "postgres"
+    password: "12345"
+http_server:
+    address: ":8080"
+    user: "user"
+    password: "password"
+session_key: "key"
