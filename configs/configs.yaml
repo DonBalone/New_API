@@ -8,6 +8,4 @@ storage_info:
     password: "12345"
 http_server:
     address: ":8080"
-    user: "user"
-    password: "password"
 session_key: "key"

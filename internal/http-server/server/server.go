@@ -8,7 +8,7 @@ import (
 type server struct {
 }
 
-func newServer() {
+func NewServer() {
 
 	http.HandleFunc("/", handler)
 	http.ListenAndServe(":8080", nil)
